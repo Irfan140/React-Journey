@@ -1,36 +1,21 @@
-import { StrictMode } from 'react'
+import { StrictMode } from 'react' // React.StrictMode helps us for optimization..if we remove it -> no error
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 
-// function MyApp() {
+// I can write here the method or i can create a seperate file for it
+/*
+function MyApp() {
 
-//     return (
-//      <div>
-//         <h1>hey there i am just using react</h1>
-//      </div>
-//     )
-//   }
+    return (
+     <div>
+        <h1>hey there i am just using react</h1>
+     </div>
+    )
+  }
 
-
-// const ReactElement = {
-//     type: 'a',
-//     props: {
-//         href: 'https://google.com',
-//         target: '_blank'
-//     },
-//     children: 'click me to vsit google'
-// } 
+*/
 
 
-// const anotherElement = (
-//     <a href="https://google.com" target='_blank'>Vsit google</a>
-// )
-
-// const reactElement = React.createElement(
-//     'a',
-//     {href: 'https://google.com',target: '_blank'},
-//     'click me to visit google'
-// )
 
 createRoot(document.getElementById('root')).render(
   
